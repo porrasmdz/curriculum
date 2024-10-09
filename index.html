@@ -12,6 +12,15 @@
     <meta name="author" content="Alfredo Andrés Porras Mendez">
     <title>CV | Andrés Porras</title>
     <link rel="stylesheet" href="style.css">
+    <!-- Estilos test !-->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <style>
+        iframe {
+            height: 400px;
+            display: "block";
+            width: 45%;
+        }
+    </style>
 </head>
 
 <body>
@@ -19,31 +28,132 @@
         <h1>Alfredo Andres Porras Mendez</h1>
         <p>Cargo | Email | Teléfono</p>
     </header>
+
     <nav>
         <ul>
             <li><a href="#resumen">Resumen</a></li>
             <li><a href="#experiencia">Experiencia</a></li>
-            <li><a href="#ubicacion">Ubicación</a></li>
-            <li><a href="#habilidades">Habilidades</a></li>
             <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#contacto">Contacto</a></li>
         </ul>
     </nav>
     <main>
         <section id="resumen">
             <h2>Resumen</h2>
+            <div>
+                <img src="https://placehold.co/200x200" alt="Foto de Andres">
+                <p>
+                    Trabajé como desarrollador web en Acme Corporation durante los últimos
+                    tres años.
+                    Mis responsabilidades incluían el diseño, desarrollo y mantenimiento de
+                    sitios web.
+                </p>
+            </div>
             <p></p>
         </section>
         <section id="experiencia">
             <h2>Experiencia</h2>
-        </section>
-        <section id="ubicacion">
-            <h2>Ubicación</h2>
-        </section>
-        <section id="habilidades">
-            <h2>Habilidades</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Empresa</th>
+                        <th>Puesto</th>
+                        <th>Años de experiencia</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Acme Corporation</td>
+                        <td>Desarrollador web</td>
+                        <td>3</td>
+                    </tr>
+                </tbody>
+            </table>
+
         </section>
         <section id="proyectos">
             <h2>Proyectos</h2>
+            <ul>
+                <li>
+                    <h3>Proyecto 1</h3>
+                    <div>
+                        <img src="https://placehold.co/300x200" alt="Placeholder Image">
+                        <p>Mi descripcion X</p>
+                    </div>
+
+                </li>
+                <li>
+                    <h3>Proyecto 2</h3>
+                    <div>
+                        <img src="https://placehold.co/300x200" alt="Placeholder Image">
+                        <p>Mi descripcion Y</p>
+                    </div>
+                </li>
+                <li>
+                    <h3>Proyecto 3</h3>
+                    <div>
+                        <img src="https://placehold.co/300x200" alt="Placeholder Image">
+                        <p>Mi descripcion Z</p>
+                    </div>
+                </li>
+                <li>
+                    <h3>Proyecto 4</h3>
+                    <div>
+                        <img src="https://placehold.co/300x200" alt="Placeholder Image">
+                        <p>Mi descripcion W</p>
+                    </div>
+                </li>
+            </ul>
+
+        </section>
+        <section id="habilidades">
+            <h2>Habilidades</h2>
+            <ol>
+                <li>Habilidades</li>
+                <li>Desarrollo web</li>
+                <li>Diseño web</li>
+                <li>Mantenimiento de sitios web</li>
+            </ol>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <div>
+                <h3>
+                    Contáctame
+                </h3>
+                <form>
+                    <label for="nombre">Nombre Completo:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="experiencia">Experiencia Laboral:</label>
+                    <textarea id="experiencia" name="experiencia" rows="5" required></textarea>
+                    <label for="educacion">Educación:</label>
+                    <textarea id="educacion" name="educacion" rows="5" required></textarea>
+                    <label>Habilidades Técnicas:</label><br>
+                    <input type="checkbox" name="habilidades" value="HTML"> HTML
+                    <input type="checkbox" name="habilidades" value="CSS"> CSS
+                    <input type="checkbox" name="habilidades" value="JavaScript">
+                    JavaScript
+                    <label for="intereses">Intereses:</label>
+                    <select id="intereses" name="intereses">
+                        <option value="desarrollo">Desarrollo Web</option>
+                        <option value="diseno">Diseño Gráfico</option>
+                        <option value="marketing">Marketing Digital</option>
+                    </select>
+                    <button type="submit">Enviar</button>
+                </form>
+
+            </div>
+            <div style="min-height: 400px; margin: 1.2rem 0rem;">
+
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.348457992837!2d-122.0838514846813!3d37.38605197982796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fba16e080ae4b%3A0x8b6d53e5bb22a2f5!2sGoogleplex!5e0!3m2!1ses!2sus!4v1614860070167!5m2!1ses!2sus"
+                    width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+
         </section>
     </main>
     <footer>
@@ -53,6 +163,22 @@
             <li><a href="https://github.com/porrasmdz">GitHub</a></li>
         </ul>
     </footer>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script>
+        // Crear el mapa
+        var map = L.map('map').setView([37.3861, -122.0838], 13); // Coordenadas de ejemplo
+
+        // Capa de mapa
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19,
+        }).addTo(map);
+
+        // Marcador
+        L.marker([37.3861, -122.0838]).addTo(map)
+            .bindPopup('¡Hola, mundo!')
+            .openPopup();
+    </script>
 </body>
 
 </html>
