@@ -1,0 +1,19 @@
+* {
+    font-family: "Maven Pro", sans-serif;
+    font-weight: 200;
+}
+
+h1 {
+    font-family: "Nunito Sans", sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", sans-serif;
+}
+
+iframe {
+    height: 400px;
+    display: "block";
+    width: 45%;
+}
