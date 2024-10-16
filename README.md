@@ -11,3 +11,6 @@ BGColorAlt: #00173d (Marine Blue)
 BGColorMain: #0a0a0a (Black)
 PrimaryText: #eef0f1 (White)
 ComponentsBg: #0f580e (green)
+
+Borrar credenciales en lab:
+cmdkey /delete:git:https://github.com
