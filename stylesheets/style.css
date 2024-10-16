@@ -35,3 +35,27 @@ section {
     padding-left: 1.2%; 
     padding-right: 1.2%; 
 }
+
+a {
+    text-decoration: none;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+
+li {
+    list-style-type: none;
+}
+footer ul {
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+section form {
+    display: grid;
+    row-gap: 0.5rem;
+}
