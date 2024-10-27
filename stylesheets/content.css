@@ -1,0 +1,68 @@
+
+h1 {
+    font-family: "Nunito Sans", sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+iframe {
+    height: 400px;
+    display: "block";
+    width: 45%;
+}
+
+#foto {
+    width: 200px;
+    height: auto;
+}
+
+.subtitle {
+    color: rgba(107, 114, 128, 0.89);
+    text-transform: uppercase;
+}
+
+section {
+    margin: 4px 2px 8px 2px;
+    border: 0.2pt solid #cedddd;
+    padding: 1.5% 0.8%;
+    padding-left: 1.2%;
+    padding-right: 1.2%;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+footer ul {
+    text-align: center;
+}
+
+
+section form {
+    display: grid;
+    row-gap: 0.5rem;
+}
+
+#resumen {
+
+    display: grid;
+    justify-content: space-around;
+    align-items: stretch;
+    grid-template-areas: "A D"
+                        "B D";
+}
+
+#resumen h2 {
+    grid-area: A;
+}
+
+#resumen p {
+    grid-area: B;
+}
+
+#resumen img {
+    grid-area: D;
+}
+

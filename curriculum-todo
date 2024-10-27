@@ -1,0 +1,25 @@
+curriculum page reference
+https://colorlib.com/wp/resume-website-templates/
+    - Arter (Section organization)
+    - Mugi (Font Family, layout, colors)
+
+referencias del curso:
+    https://crisintriago.github.io/curriculum/#contacto
+    https://k3vr0ld4n.github.io/curriculum/#about
+TODO:
+X Define color palette
+    PrimaryColor:
+    SecondaryColor:
+    TertiaryColor:
+    ActionColor:
+    PrimaryTextColor:
+    SecondaryTextColor:
+
+- Set layout with sidebar
+- Make responsive layout
+- Add Navbar links
+- Add my picture and social network links
+- Use the mugi fontFamily
+- Set css colors variables primaryColo, SecondaryColor, primaryText,secondaryText
+Per section:
+todo
