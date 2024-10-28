@@ -2,9 +2,69 @@
 h1 {
     font-family: "Nunito Sans", sans-serif;
     text-align: center;
-    font-weight: bold;
+    font-weight: 500;
 }
 
+
+.home-hero-title {
+    font-family: "Nunito Sans", sans-serif;
+    text-align: left;
+    font-size: 4rem;
+    font-weight: 1000;
+}
+.home-content-layout {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.home-content-layout > header, main, footer {
+    width: 50%;
+}
+
+.home-content-layout header {
+
+    margin-top: auto;
+}
+.home-content-layout footer {
+    justify-self: self-end;
+    margin-top: auto;
+    /* align-self: flex-end; */
+}
+.primary-button {
+    background-color: var(--action-color);
+    padding: 0.2rem 0.6rem;
+    border: 1px solid rgb(3, 56, 8);
+    border-radius: 2px;
+    color: var(--primary-text-color);
+    transition: transform 0.3s ease;
+}
+
+.secondary-button {
+    padding: 0.2rem 0.6rem;
+    border: 1px solid var(--secondary-color);
+    border-radius: 2px;
+    color: var(--primary-text-color);
+    transition: all 0.3s ease;
+}
+.primary-button:active {
+    transform: scale(0.95); /* Efecto de presionado */
+}
+
+.secondary-button:active {
+    background-color: #ffffff; /* Fondo blanco cuando está pulsado */
+    color: var(--primary-color); /* Opcional: cambia el color del texto */
+    transform: scale(0.95); /* Efecto de presionado */
+}
+.action-buttons-group {
+    margin-top: 1.2rem;
+    display: flex;
+    gap: 1rem;
+}
+button:hover {
+    transform: scale(1.1);
+}
 
 iframe {
     height: 400px;
@@ -22,13 +82,13 @@ iframe {
     text-transform: uppercase;
 }
 
-section {
+/* section {
     margin: 4px 2px 8px 2px;
     border: 0.2pt solid #cedddd;
     padding: 1.5% 0.8%;
     padding-left: 1.2%;
     padding-right: 1.2%;
-}
+} */
 
 a {
     text-decoration: none;
@@ -45,15 +105,15 @@ section form {
     row-gap: 0.5rem;
 }
 
-#resumen {
+/* #resumen {
 
     display: grid;
     justify-content: space-around;
     align-items: stretch;
     grid-template-areas: "A D"
                         "B D";
-}
-
+} */
+/* 
 #resumen h2 {
     grid-area: A;
 }
@@ -64,5 +124,5 @@ section form {
 
 #resumen img {
     grid-area: D;
-}
+} */
 

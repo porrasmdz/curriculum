@@ -17,15 +17,18 @@ X Define color palette
 
 X Set layout with sidebar
     X Dynamic section loading
-- Add Links
+X Add Links
     Github: https://github.com/porrasmdz
     LinkedIN: https://www.linkedin.com/in/alfredo-andr%C3%A9s-porras-mendez-24ab5620b/
     Whatsapp: https://wa.me/593958938256
     Mail: aporrasmdz@gmail.com
-- Make responsive layout
+
 X Add Navbar links
-- Add my picture and social network links
+X Add my picture and social network links
 - Use the mugi fontFamily
 X Set css colors variables primaryColo, SecondaryColor, primaryText,secondaryText
 Per section:
 todo
+
+
+- Make responsive layout
