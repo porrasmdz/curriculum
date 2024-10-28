@@ -8,18 +8,24 @@ referencias del curso:
     https://k3vr0ld4n.github.io/curriculum/#about
 TODO:
 X Define color palette
-    PrimaryColor:
-    SecondaryColor:
-    TertiaryColor:
-    ActionColor:
-    PrimaryTextColor:
-    SecondaryTextColor:
+    X PrimaryColor:
+    X SecondaryColor:
+    X TertiaryColor:
+    X ActionColor:
+    X PrimaryTextColor:
+    X SecondaryTextColor:
 
-- Set layout with sidebar
+X Set layout with sidebar
+    X Dynamic section loading
+- Add Links
+    Github: https://github.com/porrasmdz
+    LinkedIN: https://www.linkedin.com/in/alfredo-andr%C3%A9s-porras-mendez-24ab5620b/
+    Whatsapp: https://wa.me/593958938256
+    Mail: aporrasmdz@gmail.com
 - Make responsive layout
-- Add Navbar links
+X Add Navbar links
 - Add my picture and social network links
 - Use the mugi fontFamily
-- Set css colors variables primaryColo, SecondaryColor, primaryText,secondaryText
+X Set css colors variables primaryColo, SecondaryColor, primaryText,secondaryText
 Per section:
 todo

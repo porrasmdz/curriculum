@@ -1,6 +1,38 @@
-.sidebar nav ul {
+.sidebar nav {
     display: flex;
     flex-direction: column;
+    height: 100%;
+}
+.sidebar nav .sidebar-main-logo {
+    display: block ;
+    height: auto;
+}
+.sidebar nav .sidebar-main-logo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.sidebar nav .sidebar-main-logo span {
+    font-size: xx-large;
+    font-weight: 800;
+}
+.sidebar nav ul.navigation-links {
+    display: flex;
+    margin-top: 2.4rem;
+    flex-direction: column;
+    gap: 0.8rem;
+    text-transform: uppercase;
+    flex-grow: 1;
+}
+.sidebar nav ul.social-network-links {
+    display: flex;
+    flex-direction: row;
+    gap: 1.2rem;
+}
+.sidebar nav ul li img {
+    width: 24px;
+    height: 24px;
 }
 nav a:hover {
     text-decoration: underline;
