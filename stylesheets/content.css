@@ -2,7 +2,7 @@
 h1 {
     font-family: "Nunito Sans", sans-serif;
     text-align: center;
-    font-weight: 500;
+    font-weight: 1000;
 }
 
 
@@ -66,11 +66,6 @@ button:hover {
     transform: scale(1.1);
 }
 
-iframe {
-    height: 400px;
-    display: "block";
-    width: 45%;
-}
 
 #foto {
     width: 200px;
@@ -82,6 +77,61 @@ iframe {
     text-transform: uppercase;
 }
 
+.page-content {
+    position: relative;
+    height: 100%;
+}
+.page-content main:not(:has(> section:first-child#home)) {
+
+    width: 100%;
+    height: calc(100vh-60px-40px);
+}
+.page-content .main-content-header {
+    background-image: url('../assets/coffee-bg.jpg'); /* Agrega la ruta de tu imagen */
+    background-size: cover;
+    background-position: center;
+    height: 8.4rem;
+    margin-bottom: 1.2rem;
+    position: relative;
+    color: white; /* Para que el texto sea visible sobre el fondo oscuro */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 1rem; /* Ajusta el espacio a la izquierda si es necesario */
+    text-align: left;
+}
+.page-content .main-content-header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2); /* Oscurece el fondo con opacidad del 40% */
+    z-index: 1;
+}
+
+/* Asegura que el contenido esté por encima del overlay */
+.page-content .main-content-header h1,
+.page-content .main-content-header p {
+    position: relative;
+    z-index: 2;
+    margin: 0;
+    text-align: left;
+}
+.page-content .main-content-header p {
+    color: #f9f9f9;
+    font-weight: 500;
+}
+main {
+    position:static;
+}
+footer {
+    height: 2rem;
+    margin-top: auto;
+    position: static;
+    bottom: 0px;
+}
 /* section {
     margin: 4px 2px 8px 2px;
     border: 0.2pt solid #cedddd;
@@ -100,10 +150,6 @@ footer ul {
 }
 
 
-section form {
-    display: grid;
-    row-gap: 0.5rem;
-}
 
 /* #resumen {
 
@@ -113,7 +159,7 @@ section form {
     grid-template-areas: "A D"
                         "B D";
 } */
-/* 
+/*
 #resumen h2 {
     grid-area: A;
 }
@@ -124,5 +170,207 @@ section form {
 
 #resumen img {
     grid-area: D;
+} */
+
+#experience {
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    color: #fefefe;
+    
+    margin-bottom: 1rem;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: none;
+    padding: 1rem;
+    border-radius: 8px;
+    border: 1px solid #f9f9f9;
+    box-shadow: 0 4px 8px rgba(228, 228, 228, 0.1);
+    margin-bottom: 1rem;
+}
+
+.card-content {
+    /* flex: 1; */
+    text-align: left;
+    width: 60%;
+}
+
+.card-content h3 {
+    margin: 0;
+    font-size: 1.8rem;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+}
+
+.card-content p {
+    margin: 0.2rem 0;
+    color: #f9f9f9;
+}
+
+.card-logo {
+    margin-left: 1rem;
+}
+
+.card-logo img {
+    width: 120px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.project-card {
+    background-color: transparent;
+    border-radius: 8px;
+    border: solid 1px white;
+    box-shadow: 0 4px 8px rgba(236, 236, 236, 0.1);
+    overflow: hidden;
+    text-align: center;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #ddd;
+    margin-bottom: 1rem;
+}
+
+.project-card h3 {
+    margin: 0.5rem 0;
+    font-size: 1.2rem;
+    color: #f9f9f9;
+}
+
+.project-card p {
+    margin: 0.5rem 0;
+    color: #fefefe;
+}
+
+.project-link {
+    margin-top: auto;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.project-link:hover {
+    color: #0056b3;
+}
+
+.languages-banner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    margin-bottom: 2rem;
+    gap: 1rem; /* Espacio entre los elementos del banner */
+}
+
+.language-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.language-item img {
+    width: 50px; /* Ajusta según el tamaño deseado */
+    height: auto;
+    margin-bottom: 0.5rem; /* Espacio entre la imagen y el nombre */
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem; /* Espacio entre columnas */
+    margin-bottom: 2.4rem;
+}
+
+
+.skills-grid h3 {
+    font-size: 1.5rem;
+    color: #fefefe;
+    
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.skills-grid ol {
+    margin-left: 0; /* Elimina la indentación de la lista */
+    padding-left: 0; /* Elimina el padding de la lista */
+    list-style-type: disc; /* Cambia el estilo del marcador */
+}
+.contact-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Dos columnas de igual tamaño */
+    gap: 2rem; /* Espacio entre columnas */
+    margin-bottom: 2.4rem;
+}
+
+.map-container {
+    width: 100%;
+    min-height: 100%; /* Asegura que el contenedor del mapa tenga una altura mínima */
+    margin-bottom: 1.2rem; /* Espacio inferior del mapa */
+}
+
+
+iframe {
+    height: 100%;
+    display: "block";
+    width: 100%;
+}
+strong {
+    font-weight: 600;
+}
+section form {
+    display: grid;
+    row-gap: 0rem;
+}
+.form-container {
+    display: flex;
+    flex-direction: column; 
+    gap: 2px;/* Alinea los elementos del formulario verticalmente */
+}
+
+.form-container h3 {
+    margin-bottom: 1rem; /* Espacio debajo del título del formulario */
+}
+
+.form-container label {
+    margin-top: 0.5rem; /* Espacio encima de cada etiqueta */
+}
+
+.form-container input,
+.form-container textarea {
+    margin-bottom: 1rem; /* Espacio debajo de cada input y textarea */
+    padding: 0.5rem; /* Espacio interno en inputs y textarea */
+    border: 1px solid #ccc; /* Borde para inputs y textarea */
+    border-radius: 4px; /* Bordes redondeados */
+}
+/* 
+.form-container button {
+    padding: 0.5rem 1rem; 
+    background-color: green; 
+    color: white;  
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer;
 } */
 

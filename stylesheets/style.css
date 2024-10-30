@@ -84,7 +84,7 @@ p, span {
 aside {
     grid-area: aside;
     padding: 1.6rem;
-    border-right: 1px solid var(--secondary-text-color);
+    /* border-right: 1px solid var(--secondary-text-color); */
 }
 
 .page-content {
