@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link
         href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
         rel="stylesheet">
@@ -26,55 +27,8 @@
 </head>
 
 <body class="landing-layout">
-    <div class="overlay"></div>
-
-    <div class="overlay glitch"></div>
-
-    <aside class="sidebar">
-        <nav>
-            <a class="sidebar-main-logo" href="/">
-                <img src="assets/temp-me" alt="Foto de Andres Porras">
-                <span id="sidebar-logo-text">Andres</span>
-            </a>
-            <ul class="navigation-links">
-                <li><a href="/" class="nav-link">Resumen</a></li>
-                <li><a href="#experience" class="nav-link">Experiencia</a></li>
-                <li><a href="#projects" class="nav-link">Proyectos</a></li>
-                <li><a href="#skills" class="nav-link">Habilidades</a></li>
-                <li><a href="#contact" class="nav-link">Contacto</a></li>
-            </ul>
-            <ul class="social-network-links">
-                <li>
-                    <a href="https://www.linkedin.com/in/alfredo-andr%C3%A9s-porras-mendez-24ab5620b/">
-                        <img src="assets/linkedin-icon.jpg" alt="Icono de LinkedIn">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://github.com/porrasmdz">
-                        <img src="assets/white-gh-icon.png" alt="Icono de Github">
-                    </a>
-                </li>
-                <li>
-                    <a href="aporrasmdz@gmail.com">
-                        <img src="assets/white-mail-icon.png" alt="Icono de Correo Electrónico">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://wa.me/593958938256">
-                        <img src="assets/whatsapp-white-icon.png" alt="Icono de Whatsapp">
-                    </a>
-                </li>
-            </ul>
-        </nav>
-    </aside>
-    <button class="hamburger" aria-label="Toggle sidebar">
-        &#9776;
-    </button>
-
-
     <header>
         <h1 class="home-hero-title">CV Andres Porras</h1>
-        <!-- <p>Web Dev | aporras@espol.edu.ec | +593 95 893 8256</p> -->
     </header>
     <main class="page-content">
         <section id="home">
@@ -102,7 +56,7 @@
                         análisis de balances, correos y formularios del SRI.</p>
                 </div>
                 <div class="card-logo">
-                    <img src="../assets/linkedin-icon.jpg" alt="Logo de Acme Corporation">
+                    <img src="assets/linkedin-icon.jpg" alt="Logo de Acme Corporation">
                 </div>
             </div>
             <div class="card">
@@ -114,7 +68,7 @@
                         desarrollo de aplicaciones web.</p>
                 </div>
                 <div class="card-logo">
-                    <img src="../assets/linkedin-icon.jpg" alt="Logo de Acme Corporation">
+                    <img src="assets/linkedin-icon.jpg" alt="Logo de Acme Corporation">
                 </div>
             </div>
 
@@ -127,7 +81,7 @@
                         operaciones internas de la empresa.</p>
                 </div>
                 <div class="card-logo">
-                    <img src="../assets/linkedin-icon.jpg" alt="Logo de Acme Corporation">
+                    <img src="assets/linkedin-icon.jpg" alt="Logo de Acme Corporation">
                 </div>
             </div>
 
@@ -141,7 +95,7 @@
                         distintos clientes.</p>
                 </div>
                 <div class="card-logo">
-                    <img src="../assets/linkedin-icon.jpg" alt="Logo de Acme Corporation">
+                    <img src="assets/linkedin-icon.jpg" alt="Logo de Acme Corporation">
                 </div>
             </div>
         </section>
@@ -237,33 +191,33 @@
 
                     <ul class="languages-banner">
                         <li class="language-item">
-                            <img src="https://placehold.co/50x50" alt="JavaScript Logo">
+                            <img src="assets/logos/js-logo.svg" alt="JavaScript Logo">
                             <span>JavaScript</span>
                         </li>
                         <li class="language-item">
-                            <img src="https://placehold.co/50x50" alt="Python Logo">
+                            <img src="assets/logos/js-logo.svg" alt="Typescript Logo">
+                            <span>Typescript</span>
+                        </li>
+                        <li class="language-item">
+                            <img src="assets/logos/python-logo.svg" alt="Python Logo">
                             <span>Python</span>
                         </li>
                         <li class="language-item">
-                            <img src="https://placehold.co/50x50" alt="Java Logo">
+                            <img src="assets/logos/java-logo.svg" alt="Java Logo">
                             <span>Java</span>
                         </li>
+                      
                         <li class="language-item">
-                            <img src="https://placehold.co/50x50" alt="HTML Logo">
-                            <span>HTML</span>
-                        </li>
-                        <li class="language-item">
-                            <img src="https://placehold.co/50x50" alt="CSS Logo">
+                            <img src="assets/logos/css-logo.svg" alt="CSS Logo">
                             <span>CSS</span>
                         </li>
                         <li class="language-item">
-                            <img src="https://placehold.co/50x50" alt="CSS Logo">
-                            <span>CSS</span>
+                            <img src="assets/logos/ruby-logo.svg" alt="Ruby Logo">
+                            <span>Ruby</span>
                         </li>
 
                     </ul>
                 </div>
-
             </div>
         </section>
 
@@ -273,7 +227,7 @@
                 <p>Agendemos una reunión para hablar sobre trabajo</p>
             </div>
             <div class="contact-container">
-                <div class="map-container">
+                <div id="map-container" class="map-container">
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.348457992837!2d-122.0838514846813!3d37.38605197982796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fba16e080ae4b%3A0x8b6d53e5bb22a2f5!2sGoogleplex!5e0!3m2!1ses!2sus!4v1614860070167!5m2!1ses!2sus"
                         width="1000px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
@@ -292,27 +246,57 @@
             </div>
         </section>
     </main>
-
-
-
     <footer>
         <p>© Alfredo Andres Porras Mendez - 2024</p>
     </footer>
-    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-    <script>
-        // Crear el mapa
-        var map = L.map('map').setView([37.3861, -122.0838], 13); // Coordenadas de ejemplo
 
-        // Capa de mapa
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            maxZoom: 19,
-        }).addTo(map);
+    <!-- Background !--> 
+    <div class="overlay"></div>
+    <div class="overlay glitch"></div>
 
-        // Marcador
-        L.marker([37.3861, -122.0838]).addTo(map)
-            .bindPopup('¡Hola, mundo!')
-            .openPopup();
-    </script>
+    <!-- Sidebar !--> 
+    <aside class="sidebar">
+        <nav>
+            <a class="sidebar-main-logo" href="/porrasmdz">
+                <img src="assets/temp-me" alt="Foto de Andres Porras">
+                <span id="sidebar-logo-text">Andres</span>
+            </a>
+            <ul class="navigation-links">
+                <li><a href="/porrasmdz" class="nav-link">Resumen</a></li>
+                <li><a href="#experience" class="nav-link">Experiencia</a></li>
+                <li><a href="#projects" class="nav-link">Proyectos</a></li>
+                <li><a href="#skills" class="nav-link">Habilidades</a></li>
+                <li><a href="#contact" class="nav-link">Contacto</a></li>
+            </ul>
+            <ul class="social-network-links">
+                <li>
+                    <a href="https://www.linkedin.com/in/alfredo-andr%C3%A9s-porras-mendez-24ab5620b/">
+                        <img src="assets/logos/linkedin-icon.jpg" alt="Icono de LinkedIn">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/porrasmdz">
+                        <img src="assets/logos/white-gh-icon.png" alt="Icono de Github">
+                    </a>
+                </li>
+                <li>
+                    <a href="mailto:aporrasmdz@gmail.com">
+                        <img src="assets/logos/white-mail-icon.png" alt="Icono de Correo Electrónico">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://wa.me/593958938256">
+                        <img src="assets/logos/whatsapp-white-icon.png" alt="Icono de Whatsapp">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </aside>
+    <!-- Hamburguer button !--> 
+    <button class="hamburger" aria-label="Toggle sidebar">
+        &#9776;
+    </button>
+    
     <script src="index.js"></script>
 </body>
 

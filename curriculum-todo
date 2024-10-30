@@ -1,34 +1,6 @@
-curriculum page reference
-https://colorlib.com/wp/resume-website-templates/
-    - Arter (Section organization)
-    - Mugi (Font Family, layout, colors)
-
-referencias del curso:
-    https://crisintriago.github.io/curriculum/#contacto
-    https://k3vr0ld4n.github.io/curriculum/#about
 TODO:
-X Define color palette
-    X PrimaryColor:
-    X SecondaryColor:
-    X TertiaryColor:
-    X ActionColor:
-    X PrimaryTextColor:
-    X SecondaryTextColor:
-
-X Set layout with sidebar
-    X Dynamic section loading
-X Add Links
-    Github: https://github.com/porrasmdz
-    LinkedIN: https://www.linkedin.com/in/alfredo-andr%C3%A9s-porras-mendez-24ab5620b/
-    Whatsapp: https://wa.me/593958938256
-    Mail: aporrasmdz@gmail.com
-
-X Add Navbar links
-X Add my picture and social network links
-O Use the mugi fontFamily
-X Set css colors variables primaryColo, SecondaryColor, primaryText,secondaryText
-Per section:
-X todo
-
-
-- Make responsive layout
+ - Consider animation https://uiverse.io/JohnnyCSilva/black-rabbit-68
+ - Make responsive layout
+ - Add my picture
+ - Fix skills design
+ - Experience hacer q la foto quede arriba ??
