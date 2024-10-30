@@ -1,4 +1,12 @@
 document.addEventListener("DOMContentLoaded", () => {
+    const hamburger = document.querySelector('.hamburger');
+    const sidebar = document.querySelector('.sidebar');
+
+    hamburger.addEventListener('click', () => {
+        sidebar.classList.toggle('active');
+    });
+
+    
     const content = document.querySelector(".page-content");
     const navLinks = document.querySelectorAll(".nav-link");
 

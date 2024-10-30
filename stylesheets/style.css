@@ -55,28 +55,33 @@ button {
 :root {
     --primary-color: #070707;
     --secondary-color: #fefefe;
-    --tertiary-color: #ecebec; 
+    --tertiary-color: #ecebec;
     --primary-text-color: #fdfdfd;
     --secondary-text-color: #6b6b6d;
     --action-color: #087c08;
-    
+
 }
+
 body {
-    color: var(--primary-text-color)
-}
-.sidebar-main-logo #sidebar-logo-text {
-    font-family: 'Nunito Sans', sans-serif;
-    font-size: 2.2rem ;
-    font-weight: 1000 ;
     color: var(--primary-text-color);
 }
-p, span {
+
+.sidebar-main-logo #sidebar-logo-text {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 2.2rem;
+    font-weight: 1000;
+    color: var(--primary-text-color);
+}
+
+p,
+span {
     color: var(--secondary-text-color)
 }
+
 .landing-layout {
     display: grid;
-    grid-template-columns: 2fr 10fr;
-    grid-template-areas: "aside main";
+    /* grid-template-columns: 2fr 10fr;
+    grid-template-areas: "aside main"; */
     background-color: var(--primary-color);
 
 }
@@ -84,10 +89,18 @@ p, span {
 aside {
     grid-area: aside;
     padding: 1.6rem;
-    /* border-right: 1px solid var(--secondary-text-color); */
 }
+
 
 .page-content {
     grid-area: main;
     padding: 1.2rem;
+}
+@media (min-width: 1200px) {
+    .landing-layout {
+        display: grid;
+        grid-template-columns: 2fr 10fr;
+        grid-template-areas: "aside main";
+    }
+
 }

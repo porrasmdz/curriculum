@@ -2,6 +2,49 @@
     position: fixed;
     height: 100vh;
     border-right: 1px solid var(--secondary-color);
+    top: 0;
+    left: -250px;
+    background-color: var(--primary-color);
+    transition: left 0.3s ease; /* Transición suave */
+    z-index: 1000;
+}
+.sidebar.active {
+    left: 0; /* Mostrar el sidebar al hacer clic */
+}
+
+.hamburger {
+    display: none; /* Ocultar en pantallas grandes */
+    font-size: 2rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+    .hamburger {
+        position: fixed;
+        display: block; 
+        z-index: 40;
+        right: 0;
+        top: 0;
+        color: white;
+        margin: 1.2rem;/* Mostrar el botón de hamburguesa en dispositivos pequeños */
+    }
+
+    .landing-layout {
+        grid-template-columns: 1fr; /* Cambiar a una sola columna */
+    }
+}
+
+/* Estilos para dispositivos grandes */
+@media (min-width: 1200px) {
+    .sidebar {
+        left: 0; /* Siempre mostrar el sidebar en dispositivos grandes */
+    }
+
+    .hamburger {
+        display: none; /* Ocultar el botón de hamburguesa */
+    }
 }
 .sidebar nav {
     
