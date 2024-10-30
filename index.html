@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="stylesheets/sidebar.css">
     <link rel="stylesheet" href="stylesheets/content.css">
     <link rel="stylesheet" href="stylesheets/style.css">
+    <link rel="stylesheet" href="stylesheets/background.css">
     <!-- Estilos test !-->
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,9 +22,14 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
         rel="stylesheet">
+
 </head>
 
 <body class="landing-layout">
+    <div class="overlay"></div>
+
+    <div class="overlay glitch"></div>
+
     <aside class="sidebar">
         <nav>
             <a class="sidebar-main-logo" href="/">
@@ -78,8 +84,8 @@
                 proyectos con inteligencia artificial.
             </p>
             <div class="action-buttons-group">
-                <button class="primary-button">Ver Más</button>
-                <button class="secondary-button">Contactar</button>
+                <a href="#experience" class="primary-button">Ver Más</a>
+                <a href="#contact" class="secondary-button">Contactar</a>
             </div>
         </section>
         <section id="experience">

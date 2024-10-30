@@ -21,6 +21,7 @@ h2 {
 
 
 .primary-button {
+    cursor: pointer;
     background-color: var(--action-color);
     padding: 0.2rem 0.6rem;
     border: 1px solid rgb(3, 56, 8);
@@ -30,6 +31,7 @@ h2 {
 }
 
 .secondary-button {
+    cursor: pointer;
     padding: 0.2rem 0.6rem;
     border: 1px solid var(--secondary-color);
     border-radius: 2px;
@@ -57,7 +59,7 @@ h2 {
     gap: 1rem;
 }
 
-button:hover {
+.primary-button:hover, .secondary-button:hover {
     transform: scale(1.1);
 }
 
@@ -160,7 +162,7 @@ a {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    background-color: none;
+    background-color: var(--primary-color);
     padding: 1rem;
     border-radius: 8px;
     border: 1px solid #f9f9f9;
@@ -204,7 +206,7 @@ a {
 }
 
 .project-card {
-    background-color: transparent;
+    background-color: var(--primary-color);
     border-radius: 8px;
     border: solid 1px white;
     box-shadow: 0 4px 8px rgba(236, 236, 236, 0.1);
@@ -369,6 +371,9 @@ section form {
 
 section {
     margin: 3.6rem 1.2rem;
+}
+section:not(:first-of-type) {
+    min-height: 100vh;
 }
 
 @media (max-width: 1200px) {
