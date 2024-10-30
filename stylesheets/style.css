@@ -115,6 +115,8 @@ aside {
         position: relative;
         left: 200px;
         width: calc(100vw - 200px);
+        /* TODO: check value*/
+        padding: 0rem 4.8rem;
     }
 
 }
