@@ -17,6 +17,7 @@
     clip-path: polygon(0 0, 100% 0, 100% 0.5em, 0 0.5em);
     animation: glitch 10s linear infinite;
     transform: translatex(0.1rem);
+    
   }
   
   @keyframes glitch {
