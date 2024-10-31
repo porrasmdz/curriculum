@@ -206,158 +206,42 @@
                             <span>JavaScript</span>
                         </li>
                         <li class="language-item">
-                            <div class="coin-container">
-                                <div class="blue-coin">
-                                    <div class="coin-fill blue-coin-fill"></div>
-                                    <div class="side heads">
-                                        <img src="assets/logos/ts-logo.svg" alt="Typescript Logo">
-                                    
-                                    </div>
-                                    <div class="side tails">
-                                        <img class="svg_back" src="assets/logos/ts-logo.svg" alt="Typescript Logo">
-                                    
-                                    </div>
-                                </div>
-                            </div>
-                           
+                            <img src="assets/logos/ts-logo.svg" alt="Typescript Logo">
                             <span>Typescript</span>
                         </li>
                         <li class="language-item">
-                            <div class="coin-container">
-                                <div class="black-coin">
-                                    <div class="coin-fill black-coin-fill"></div>
-                                    <div class="side heads">
-                                        <img src="assets/logos/python-logo.svg" alt="Python Logo">
-                                    
-                                    </div>
-                                    <div class="side tails">
-                                        <img class="svg_back" src="assets/logos/python-logo.svg" alt="Python Logo">
-                                    
-                                    </div>
-                                </div>
-                            </div>
-                           
+                            <img src="assets/logos/python-logo.svg" alt="Python Logo">
                             <span>Python</span>
                         </li>
                         <li class="language-item">
-                            <div class="coin-container">
-                                <div class="white-coin">
-                                    <div class="coin-fill white-coin-fill"></div>
-                                    <div class="side heads">
-                                        <img src="assets/logos/java-logo.svg" alt="Java Logo">
-                                    
-                                    </div>
-                                    <div class="side tails">
-                                        <img class="svg_back" src="assets/logos/java-logo.svg" alt="Java Logo">
-                                    
-                                    </div>
-                                </div>
-                            </div>
-                           
+                            <img src="assets/logos/java-logo.svg" alt="Java Logo">
                             <span>Java</span>
                         </li>
 
                         <li class="language-item">
-                            <div class="coin-container">
-                                <div class="black-coin">
-                                    <div class="coin-fill black-coin-fill"></div>
-                                    <div class="side heads">
-                                        <img src="assets/logos/flutter-logo.svg" alt="Flutter Logo">
-                                    
-                                    </div>
-                                    <div class="side tails">
-                                        <img class="svg_back" src="assets/logos/flutter-logo.svg" alt="Flutter Logo">
-                                    
-                                    </div>
-                                </div>
-                            </div>
-                           
-                            <span>Flutter(Dart)</span>
+                            <img src="assets/logos/flutter-logo.svg" alt="Dart Logo">
+                            <span>Flutter (Dart)</span>
                         </li>
                         <li class="language-item">
-                            <div class="coin-container">
-                                <div class="black-coin">
-                                    <div class="coin-fill black-coin-fill"></div>
-                                    <div class="side heads">
-                                        <img src="assets/logos/ruby-logo.svg" alt="Ruby Logo">
-                                    
-                                    </div>
-                                    <div class="side tails">
-                                        <img class="svg_back" src="assets/logos/ruby-logo.svg" alt="Ruby Logo">
-                                    
-                                    </div>
-                                </div>
-                            </div>
-                           
+                            <img src="assets/logos/ruby-logo.svg" alt="Ruby Logo">
                             <span>Ruby</span>
                         </li>
 
                         <li class="language-item">
-                            <div class="coin-container">
-                                <div class="black-coin">
-                                    <div class="coin-fill black-coin-fill"></div>
-                                    <div class="side heads">
-                                        <img src="assets/logos/html-logo.svg" alt="HTML Logo">
-                                    
-                                    </div>
-                                    <div class="side tails">
-                                        <img class="svg_back" src="assets/logos/html-logo.svg" alt="HTML Logo">
-                                    
-                                    </div>
-                                </div>
-                            </div>
-                           
+                            <img src="assets/logos/html-logo.svg" alt="HTML5 Logo">
                             <span>HTML5</span>
                         </li>
                         <li class="language-item">
-                            <div class="coin-container">
-                                <div class="black-coin">
-                                    <div class="coin-fill black-coin-fill"></div>
-                                    <div class="side heads">
-                                        <img src="assets/logos/css-logo.svg" alt="CSS Logo">
-                                    
-                                    </div>
-                                    <div class="side tails">
-                                        <img class="svg_back" src="assets/logos/css-logo.svg" alt="CSS Logo">
-                                    
-                                    </div>
-                                </div>
-                            </div>
-                           
+                            <img src="assets/logos/css-logo.svg" alt="CSS Logo">
                             <span>CSS</span>
                         </li>
-                        <li class="language-item">
-                            <div class="coin-container">
-                                <div class="blue-coin">
-                                    <div class="coin-fill blue-coin-fill"></div>
-                                    <div class="side heads">
-                                        <img src="assets/logos/csharp-logo.svg" alt="C Sharp Logo">
-                                    
-                                    </div>
-                                    <div class="side tails">
-                                        <img class="svg_back" src="assets/logos/csharp-logo.svg" alt="C Sharp Logo">
-                                    
-                                    </div>
-                                </div>
-                            </div>
-                           
+
+                        <li class="language-item lg-language">
+                            <img src="assets/logos/csharp-logo.svg" alt="C# Logo">
                             <span>C#</span>
                         </li>
-                        <li class="language-item">
-                            <div class="coin-container">
-                                <div class="blue-coin">
-                                    <div class="coin-fill blue-coin-fill"></div>
-                                    <div class="side heads">
-                                        <img src="assets/logos/cpp-logo.svg" alt="Cpp Logo">
-                                    
-                                    </div>
-                                    <div class="side tails">
-                                        <img class="svg_back" src="assets/logos/cpp-logo.svg" alt="Cpp Logo">
-                                    
-                                    </div>
-                                </div>
-                            </div>
-                           
+                        <li class="language-item sm-language">
+                            <img src="assets/logos/cpp-logo.svg" alt="C++ Logo">
                             <span>C++</span>
                         </li>
 
@@ -418,8 +302,8 @@
     </footer>
 
     <!-- Background !-->
-    <div class="overlay"></div>
-    <div class="overlay glitch"></div>
+    <!-- <div class="overlay"></div>
+    <div class="overlay glitch"></div> -->
 
     <!-- Sidebar !-->
     <aside class="sidebar">
